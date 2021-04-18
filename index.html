@@ -19,28 +19,35 @@
 
   <body>
     <!-- Navigation menu -->
-    <nav class="navigation">
+    <nav >
+      <div class="mobile-nav">
+        <button id="menuOpen" class="active"><i class="fas fa-bars"></i></button>
+        <button id="menuClose"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="navigation">
       <label class="logo">M.</label>
-      <ul class="links">
+      <ul id="headerLinks" class="links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+    </div>
     </nav>
 
     <!-- Home Section -->
     <section>
       <div id="home" class="home">
         <div class="background-text">
-          <label for="">Mahesh Chavda</label>
+          <label >Mahesh Chavda</label>
         </div>
         <div class="left-details">
           <div class="social-media-links">
             <ul>
               <li>
-                <a href="https://www.facebook.com/mahesh.chavda.526">
+                <a href="#">
+                  <a href="https://www.facebook.com/mahesh.chavda.526">
                   <i class="fab fa-facebook-square"></i>
                 </a>
               </li>
@@ -50,35 +57,39 @@
                 </a>
               </li>
               <li>
-                <a href="https://in.pinterest.com/chavdamahesh2772/_saved/">
+                <a href="#">
+                  <a href="https://in.pinterest.com/chavdamahesh2772">
                   <i class="fab fa-pinterest"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/_mahesh_ahir_/">
+                <a href="#">
+                  <a href="https://www.instagram.com/_mahesh_ahir_/">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.behance.net/maheshchavda">
+                <a href="#">
+                  <a href="https://www.behance.net/maheshchavda">
                   <i class="fab fa-behance"></i>
                 </a>
               </li>
             </ul>
           </div>
           <h1 class="name-label">I am <span>Mahesh Chavda</span></h1>
-          <h5 class="intro">
-            I am Professional web developer and designer by passion.
-          </h5>
-          <a href="#portfolio"
-            ><button class="my-portfolio-btn">My Portfolio</button></a
-          >
+          <h5 class="intro">I am web developer by profession and designer by passion.</h5>
+          <a class="btnPortfolio" href="#portfolio">
+            <div class="my-portfolio-btn">
+              My Portfolio
+            </div>
+          </a>
         </div>
-        <img
-          class="right-image"
-          src="image/Profile/ProfessionalPhoto-min.png"
-          alt="profile-image"
-        />
+        <div class="right-image">
+          <img
+            src="image/Profile/Professional Photo.png"
+            alt="profile-image"
+          />
+        </div>
       </div>
     </section>
 
@@ -89,18 +100,22 @@
           <label for="">About</label>
         </div>
         <h1 class="header">About</h1>
-        <img
-          class="left-image"
-          src="./image/Profile/blueshirtProfessionalForPortfolio-min.png"
-          alt=""
-        />
+        <div class="left-image">
+
+          <img
+            class="profile-image"
+            src="./image/Profile/blueshirtProfessionalForPortfolio.png"
+            alt=""
+          />
+        </div>
+        
         <div class="right">
-          <label for="" class="greting">Hi There</label>
+          <label for="" class="greting">Hi There !!</label>
           <label for="" class="discription"
-            >My Self Mahesh Chavda and i am jr.Software Engineer <br />
-            at KNKOVOS india Pvt. Ltd. <br />
+            >My Self Mahesh Chavda and i am jr.Software Engineer
+            at KNKOVOS india Pvt. Ltd.
             I Love Designing, drawing and Learning new Technologies.
-            <br />Currently i am Learing React JS and Node JS.
+            Currently i am Learing React JS and Node JS.
           </label>
           <button class="btn">Download Resume</button>
         </div>
@@ -108,7 +123,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section>
+    <section> 
       <div id="skills" class="skills">
         <div class="background-text">
           <label for="">Skills</label>
@@ -152,7 +167,7 @@
     </section>
 
     <!-- Portfolio section -->
-    <section>
+    <!-- <section>
       <div id="portfolio" class="portfolio">
         <div class="background-text">
           <label for="">Portfolio</label>
@@ -193,10 +208,10 @@
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
-    <section>
+    <!-- <section>
       <div id="contact" class="contact">
         <div class="background-text">
           <label for="">Contact Me</label>
@@ -252,14 +267,14 @@
           <button class="btn" type="submit">Submit</button>
         </form>
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
-    <div class="footer">
+    <!-- <div class="footer">
       <label for="footer"
         >Copyright @ 2021 MaheshChavda, All rights are reserved. <br />
         Created By Mahesh Chavda
       </label>
-    </div>
+    </div> -->
   </body>
 </html>
