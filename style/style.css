@@ -24,27 +24,29 @@
   --mobile-nav-height: 7vh;
 }
 
-body {
-  background-color: lightseagreen;
-  width: 100vw;
-  overflow-x: hidden;
-  max-width: 1200px;
-}
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: lightseagreen;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 nav {
-  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
   height: var(--nav-height);
   width: 100vw;
-  top: 0;
-  position: fixed;
+  background-color: var(--background-color);
   z-index: 10;
 }
 
@@ -199,7 +201,6 @@ nav .navigation.active ul.links li a {
 .home {
   height: 100vh;
   width: 100vw;
-  min-height: 800px;
   background-color: var(--lightbackground-color);
   position: relative;
   display: -webkit-box;

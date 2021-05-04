@@ -37,26 +37,29 @@ $Phone-size: 768px;
   --nav-height: 12vh;
   --mobile-nav-height: 7vh;
 }
-body {
-  background-color: lightseagreen;
-  width: 100vw;
-  overflow-x: hidden;
-  max-width: $Desktop-size;
-}
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: lightseagreen;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 nav {
-  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
   height: var(--nav-height);
   width: 100vw;
-  top: 0;
-  position: fixed;
+  background-color: var(--background-color);
   z-index: 10;
 
   @media (max-width: $Phone-size) {
@@ -185,7 +188,6 @@ nav {
 .home {
   height: 100vh;
   width: 100vw;
-  min-height: 800px;
   background-color: var(--lightbackground-color);
   position: relative;
   display: flex;
@@ -884,31 +886,6 @@ nav {
     }
   }
 
-  // .background-text {
-  //   position: absolute;
-  //   width: 90vw;
-  //   height: 80vh;
-  //   top: 80px;
-  //   overflow-y: hidden;
-  //   pointer-events: none;
-
-  //   label {
-  //     position: absolute;
-  //     font-family: "Segoe Script";
-  //     width: 90%;
-  //     color: var(--light-white);
-  //     left: 5%;
-  //     font-size: 13vw;
-  //     opacity: 0.05;
-  //     display: flex;
-  //     justify-content: center;
-  //     top: 24vh;
-  //     transform: rotate(-15deg);
-  //     align-items: center;
-  //     user-select: none;
-  //   }
-  // }
-
   .contact-card {
     width: 60vw;
     margin: 0 auto;
@@ -991,71 +968,6 @@ nav {
       }
     }
   }
-
-  // .form {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   position: relative;
-  //   width: 80vw;
-  //   // height: 55vh;
-  //   margin: 0 auto;
-  //   margin-top: 1rem;
-
-  // button {
-  //   background-color: transparent;
-  //   color: white;
-  //   height: 10vh;
-  //   width: 15vw;
-  //   margin: 0 auto;
-  //   border: 2px solid var(--main-color);
-  //   border-radius: 200px;
-  //   font-size: var(--button-text-size);
-  //   text-align: center;
-  //   padding: 15px 30px;
-  //   bottom: 0;
-  //   transition: all var(--button-active-time) ease-in-out;
-
-  //   @media (max-width: $Phone-size) {
-  //     text-align: center;
-  //     width: 50vw;
-  //     height: 7vh;
-  //     font-size: 1rem;
-  //     justify-content: center;
-  //     border: 0.5vw solid var(--main-color);
-  //     max-width: 250px;
-  //     margin-top: 1.1rem;
-  //   }
-
-  //   &:hover {
-  //     background-color: var(--main-color);
-  //     cursor: pointer;
-  //   }
-
-  //   &:focus {
-  //     outline: none;
-  //   }
-
-  //   &:active {
-  //     outline: none;
-  //     transform: scale(0.9);
-  //   }
-  // }
-
-  // form {
-  //   position: relative;
-  //   width: 80vw;
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   justify-content: center;
-  //   align-items: flex-start;
-
-  //   @media (max-width: $Phone-size) {
-  //     margin-top: -1rem;
-  //   }
-  // }
-  //}
 }
 
 //Footer Section Design
