@@ -1017,8 +1017,10 @@ nav .navigation.active ul.links li a {
 
 .portfolio .cards .card {
   position: relative;
-  height: 42vh;
+  height: 32vh;
   width: 32vh;
+  min-width: 32vh;
+  min-height: 32vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

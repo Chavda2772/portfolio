@@ -773,8 +773,10 @@ nav {
 
     .card {
       position: relative;
-      height: 42vh;
+      height: 32vh;
       width: 32vh;
+      min-width: 32vh;
+      min-height: 32vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
