@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Segoe Script";
-  src: url(../fonts/segoesc.ttf) format("truetype");
-}
-
 :root {
   --Desktop-size: 1200px;
   --Laptop-size: 1024px;
@@ -35,7 +30,7 @@
 
 body {
   position: relative;
-  background-color: lightseagreen;
+  background-color: var(--background-color);
   width: 100vw;
   overflow-x: hidden;
 }
@@ -119,6 +114,7 @@ nav .navigation label.logo {
   color: var(--main-color);
   font-size: 3vw;
   font-weight: bold;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -192,6 +188,7 @@ nav .navigation.active ul.links {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 0;
+  padding-bottom: 8vh;
 }
 
 nav .navigation.active ul.links li a {
@@ -236,7 +233,7 @@ nav .navigation.active ul.links li a {
 
 .home .background-text label {
   position: relative;
-  font-family: "Segoe Script";
+  font-family: "'Brush Script MT', cursive";
   color: var(--light-white);
   font-size: 8rem;
   opacity: 0.04;
@@ -313,7 +310,7 @@ nav .navigation.active ul.links li a {
   width: 3.5vw;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  border: 0.5vh solid var(--main-color);
+  border: 2px solid var(--main-color);
   border-radius: 50%;
   -webkit-transition: all var(--transition-time) ease-in-out;
   transition: all var(--transition-time) ease-in-out;
@@ -406,7 +403,6 @@ nav .navigation.active ul.links li a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100vw;
     margin-top: 2vh;
   }
 }
@@ -414,10 +410,8 @@ nav .navigation.active ul.links li a {
 .home .left-details .my-portfolio-btn {
   background-color: transparent;
   color: var(--light-white);
-  height: 10vh;
-  width: 15vw;
   margin-top: 3vw;
-  border: 0.5vh solid var(--main-color);
+  padding: 1rem 1rem;
   border-radius: 999px;
   font-size: var(--button-text-size);
   -webkit-transition: all var(--button-active-time) ease-in-out;
@@ -431,6 +425,8 @@ nav .navigation.active ul.links li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 2px solid var(--main-color);
+  width: 20vw;
 }
 
 @media (max-width: 768px) {
@@ -542,7 +538,7 @@ nav .navigation.active ul.links li a {
 
 .about .background-text label {
   position: relative;
-  font-family: "Segoe Script";
+  font-family: "'Brush Script MT', cursive";
   color: var(--light-white);
   font-size: 17rem;
   opacity: 0.04;
@@ -566,13 +562,13 @@ nav .navigation.active ul.links li a {
 .about .header {
   position: relative;
   width: 100%;
-  height: 7vh;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   z-index: 1;
+  margin-top: 3vh;
 }
 
 .about .header::before {
@@ -602,7 +598,7 @@ nav .navigation.active ul.links li a {
 
 .about .left-image {
   float: left;
-  height: 100%;
+  height: 85%;
   width: 49vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,7 +618,7 @@ nav .navigation.active ul.links li a {
         -ms-flex-order: -1;
             order: -1;
     width: 100vw;
-    height: 50vh;
+    height: 45vh;
   }
 }
 
@@ -640,7 +636,7 @@ nav .navigation.active ul.links li a {
 
 .about .right {
   float: left;
-  height: 100%;
+  height: 85%;
   width: 49vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,8 +701,6 @@ nav .navigation.active ul.links li a {
 .about .right .btn {
   background-color: transparent;
   color: var(--light-white);
-  height: 10vh;
-  width: 17vw;
   border: 2px solid var(--main-color);
   border-radius: 50px;
   font-size: var(--button-text-size);
@@ -715,15 +709,16 @@ nav .navigation.active ul.links li a {
   -webkit-transition: all var(--button-active-time) ease-in-out;
   transition: all var(--button-active-time) ease-in-out;
   margin-top: 3vh;
+  margin-bottom: 3vh;
   z-index: inherit;
 }
 
 @media (max-width: 768px) {
   .about .right .btn {
     text-align: center;
-    width: 50vw;
-    height: 7vh;
     font-size: 1rem;
+    padding: 1rem 3rem;
+    word-break: keep-all;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -763,54 +758,22 @@ nav .navigation.active ul.links li a {
   }
 }
 
-.skills .background-text {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.skills .background-text label {
-  position: relative;
-  font-family: "Segoe Script";
-  color: var(--light-white);
-  font-size: 20vw;
-  opacity: 0.04;
-  -webkit-transform: rotate(-16deg);
-          transform: rotate(-16deg);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-@media (max-width: 768px) {
-  .skills .background-text label {
-    font-size: 11rem;
-    -webkit-transform: rotate(311deg);
-            transform: rotate(311deg);
-  }
-}
-
 .skills .header {
   position: relative;
   width: 100%;
-  height: 7vh;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 2.5rem;
   z-index: 1;
+  margin-top: 2vh;
+}
+
+@media (max-width: 768px) {
+  .skills .header {
+    font-size: 2rem;
+  }
 }
 
 .skills .header::before {
@@ -840,7 +803,7 @@ nav .navigation.active ul.links li a {
 
 .skills .cards {
   position: relative;
-  width: 90vw;
+  width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -851,7 +814,7 @@ nav .navigation.active ul.links li a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -859,8 +822,8 @@ nav .navigation.active ul.links li a {
 
 .skills .cards .card {
   position: relative;
-  height: 13vw;
-  width: 13vw;
+  height: 32vh;
+  width: 32vh;
   min-width: 180px;
   min-height: 180px;
   display: -webkit-box;
@@ -877,7 +840,7 @@ nav .navigation.active ul.links li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px 30px;
+  margin: 2vh;
   border-radius: 10px;
   background-color: var(--background-color);
   -webkit-transition: -webkit-transform var(--transition-time) ease-in-out;
@@ -887,8 +850,8 @@ nav .navigation.active ul.links li a {
 }
 
 .skills .cards .card img {
-  height: 10vw;
-  width: 10vw;
+  height: 60%;
+  width: 60%;
   min-width: 130px;
   min-height: 130px;
 }
@@ -896,6 +859,12 @@ nav .navigation.active ul.links li a {
 .skills .cards .card label {
   position: relative;
   top: 10px;
+}
+
+@media (max-width: 768px) {
+  .skills .cards .card label {
+    font-size: 1.5rem;
+  }
 }
 
 .skills .cards .card:hover {
@@ -922,39 +891,6 @@ nav .navigation.active ul.links li a {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 4vh;
-}
-
-.portfolio .background-text {
-  position: absolute;
-  width: 100%;
-  height: 80vh;
-  top: 80px;
-}
-
-.portfolio .background-text label {
-  position: absolute;
-  font-family: "Segoe Script";
-  width: 90%;
-  color: var(--light-white);
-  left: 5%;
-  font-size: 19vw;
-  opacity: 0.05;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: 160px;
-  -webkit-transform: rotate(-16deg);
-          transform: rotate(-16deg);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .portfolio .header {
@@ -999,7 +935,7 @@ nav .navigation.active ul.links li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90vw;
+  width: 78vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1017,8 +953,8 @@ nav .navigation.active ul.links li a {
 
 .portfolio .cards .card {
   position: relative;
-  height: 32vh;
-  width: 32vh;
+  height: 35vh;
+  width: 35vh;
   min-width: 32vh;
   min-height: 32vh;
   display: -webkit-box;

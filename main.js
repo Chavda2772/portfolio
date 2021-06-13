@@ -27,3 +27,7 @@ navigationLinks.forEach((link, idx) => {
     navigation.classList.remove("active");
   });
 });
+
+window.pagehide = (event) => {
+  console.log("The page is unloaded");
+};
