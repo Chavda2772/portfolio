@@ -1,0 +1,7 @@
+.gitignore
+README.md
+build.bat
+excludeFiles.txt
+excludeFolders.txt
+practice.bat
+folders.txt

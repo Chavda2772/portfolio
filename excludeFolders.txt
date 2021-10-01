@@ -1,0 +1,8 @@
+.vscode
+.vs
+.git
+projects\responsiveSinglePageRamjan(Pending)
+projects\simpleFetchRequest(Removed)
+projects\rotate_nav(Pending)
+projects\animatedInputField
+projects\downloadFile
