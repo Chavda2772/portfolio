@@ -24,7 +24,7 @@
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -64,11 +64,11 @@ nav .mobile-nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -182,14 +182,14 @@ nav .navigation.active ul.links {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 0;
   padding-bottom: 8vh;
 }
@@ -213,8 +213,8 @@ nav .navigation.active ul.links li a {
   .home {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -227,11 +227,11 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home .background-text label {
@@ -241,18 +241,18 @@ nav .navigation.active ul.links li a {
   font-size: 8rem;
   opacity: 0.04;
   -webkit-transform: rotate(-16deg);
-          transform: rotate(-16deg);
+  transform: rotate(-16deg);
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   white-space: nowrap;
 }
 
 @media (max-width: 768px) {
   .home .background-text label {
     -webkit-transform: rotate(296deg);
-            transform: rotate(296deg);
+    transform: rotate(296deg);
     font-size: 5rem;
   }
 }
@@ -267,11 +267,11 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   z-index: 1;
 }
 
@@ -282,8 +282,8 @@ nav .navigation.active ul.links li a {
     padding-left: 0;
     padding-top: 0;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
@@ -292,16 +292,16 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
   padding-left: -0.2rem;
 }
 
 @media (max-width: 768px) {
   .home .left-details .social-media-links ul {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 4vh;
   }
 }
@@ -312,7 +312,7 @@ nav .navigation.active ul.links li a {
   height: 3.5vw;
   width: 3.5vw;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   border: 2px solid var(--main-color);
   border-radius: 50%;
   -webkit-transition: all var(--transition-time) ease-in-out;
@@ -332,7 +332,7 @@ nav .navigation.active ul.links li a {
   background-color: var(--main-color);
   cursor: pointer;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .home .left-details .social-media-links ul li a {
@@ -345,8 +345,8 @@ nav .navigation.active ul.links li a {
   display: flex;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2vw;
   color: var(--light-white);
   line-height: 3.5vw;
@@ -404,8 +404,8 @@ nav .navigation.active ul.links li a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 2vh;
   }
 }
@@ -423,11 +423,11 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 2px solid var(--main-color);
   width: 20vw;
 }
@@ -438,8 +438,8 @@ nav .navigation.active ul.links li a {
     height: 7vh;
     font-size: 1rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     border: 0.5vw solid var(--main-color);
     max-width: 250px;
   }
@@ -457,14 +457,14 @@ nav .navigation.active ul.links li a {
 .home .left-details .my-portfolio-btn:active {
   outline: none;
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .home .right-image {
   height: 100vh;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   position: relative;
   overflow-x: hidden;
 }
@@ -472,8 +472,8 @@ nav .navigation.active ul.links li a {
 @media (max-width: 768px) {
   .home .right-image {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     width: 100vw;
     height: 60vh;
   }
@@ -485,9 +485,9 @@ nav .navigation.active ul.links li a {
   left: 0;
   height: 85vh;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (max-width: 768px) {
@@ -501,7 +501,7 @@ nav .navigation.active ul.links li a {
     height: 40vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 
@@ -530,11 +530,11 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 0;
   margin-top: -7vh;
 }
@@ -546,18 +546,18 @@ nav .navigation.active ul.links li a {
   font-size: 17rem;
   opacity: 0.04;
   -webkit-transform: rotate(-16deg);
-          transform: rotate(-16deg);
+  transform: rotate(-16deg);
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   z-index: inherit;
 }
 
 @media (max-width: 768px) {
   .about .background-text label {
     -webkit-transform: rotate(306deg);
-            transform: rotate(306deg);
+    transform: rotate(306deg);
     font-size: 10rem;
   }
 }
@@ -567,8 +567,8 @@ nav .navigation.active ul.links li a {
   width: 100%;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2rem;
   z-index: 1;
   margin-top: 3vh;
@@ -581,8 +581,8 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   bottom: -2vh;
   left: 50%;
   border: 2px solid var(--main-color);
@@ -590,7 +590,7 @@ nav .navigation.active ul.links li a {
   width: 10vw;
   border-radius: 200px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
@@ -607,19 +607,19 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 1;
 }
 
 @media (max-width: 768px) {
   .about .left-image {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     width: 100vw;
     height: 45vh;
   }
@@ -646,30 +646,30 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   z-index: 1;
 }
 
 @media (max-width: 768px) {
   .about .right {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     width: 100vw;
     height: 50vh;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
@@ -723,8 +723,8 @@ nav .navigation.active ul.links li a {
     padding: 1rem 3rem;
     word-break: keep-all;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     border: 0.5vw solid var(--main-color);
     max-width: 250px;
   }
@@ -742,7 +742,7 @@ nav .navigation.active ul.links li a {
 .about .right .btn:active {
   outline: none;
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .skills {
@@ -766,8 +766,8 @@ nav .navigation.active ul.links li a {
   width: 100%;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2.5rem;
   z-index: 1;
   margin-top: 2vh;
@@ -786,8 +786,8 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   bottom: -2vh;
   left: 50%;
   border: 2px solid var(--main-color);
@@ -795,7 +795,7 @@ nav .navigation.active ul.links li a {
   width: 10vw;
   border-radius: 200px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
@@ -812,15 +812,15 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 2.5rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .skills .cards .card {
@@ -834,22 +834,23 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 2vh;
   border-radius: 10px;
   background-color: var(--background-color);
   -webkit-transition: -webkit-transform var(--transition-time) ease-in-out;
   transition: -webkit-transform var(--transition-time) ease-in-out;
   transition: transform var(--transition-time) ease-in-out;
-  transition: transform var(--transition-time) ease-in-out, -webkit-transform var(--transition-time) ease-in-out;
+  transition: transform var(--transition-time) ease-in-out,
+    -webkit-transform var(--transition-time) ease-in-out;
 }
 
 .skills .cards .card img {
@@ -872,7 +873,7 @@ nav .navigation.active ul.links li a {
 
 .skills .cards .card:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -888,11 +889,11 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 4vh;
 }
 
@@ -902,8 +903,8 @@ nav .navigation.active ul.links li a {
   height: 7vh;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2.5rem;
   z-index: 1;
 }
@@ -915,8 +916,8 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   bottom: -2vh;
   left: 50%;
   border: 2px solid var(--main-color);
@@ -924,7 +925,7 @@ nav .navigation.active ul.links li a {
   width: 10vw;
   border-radius: 200px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
@@ -940,17 +941,17 @@ nav .navigation.active ul.links li a {
   display: flex;
   width: 78vw;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 5vh;
 }
 
@@ -965,17 +966,18 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 1rem 1.5rem;
   background-color: var(--background-color);
   -webkit-transition: -webkit-transform var(--transition-time) ease-in-out;
   transition: -webkit-transform var(--transition-time) ease-in-out;
   transition: transform var(--transition-time) ease-in-out;
-  transition: transform var(--transition-time) ease-in-out, -webkit-transform var(--transition-time) ease-in-out;
+  transition: transform var(--transition-time) ease-in-out,
+    -webkit-transform var(--transition-time) ease-in-out;
 }
 
 .portfolio .cards .card img {
@@ -985,7 +987,7 @@ nav .navigation.active ul.links li a {
 
 .portfolio .cards .card:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -996,8 +998,8 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 1rem;
 }
 
@@ -1022,8 +1024,8 @@ nav .navigation.active ul.links li a {
     height: 7vh;
     font-size: 1rem;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     border: 0.5vw solid var(--main-color);
     max-width: 250px;
   }
@@ -1045,7 +1047,7 @@ nav .navigation.active ul.links li a {
 .portfolio .btn button:active {
   outline: none;
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .contact {
@@ -1069,8 +1071,8 @@ nav .navigation.active ul.links li a {
   height: 7vh;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 2.5rem;
   z-index: 1;
 }
@@ -1082,8 +1084,8 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   bottom: -2vh;
   left: 50%;
   border: 2px solid var(--main-color);
@@ -1091,7 +1093,7 @@ nav .navigation.active ul.links li a {
   width: 10vw;
   border-radius: 200px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
@@ -1109,14 +1111,14 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
 }
 
@@ -1124,14 +1126,14 @@ nav .navigation.active ul.links li a {
   .contact .contact-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
@@ -1148,7 +1150,7 @@ nav .navigation.active ul.links li a {
   background-color: var(--background-color);
   height: 15vh;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1172,11 +1174,11 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact .contact-card .card .logo i {
@@ -1199,18 +1201,18 @@ nav .navigation.active ul.links li a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .contact .contact-card .card .info {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -1225,8 +1227,8 @@ nav .navigation.active ul.links li a {
 @media (max-width: 768px) {
   .contact .contact-card .card .info label {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     font-size: 4vw;
   }
 }
@@ -1240,11 +1242,11 @@ nav .navigation.active ul.links li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer label {

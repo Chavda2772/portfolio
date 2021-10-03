@@ -226,62 +226,8 @@
           <label for="">Portfolio</label>
         </div> -->
         <h1 class="header">Portfolio</h1>
-        <div class="cards">
-          <a href="projects\LocalTodoApplication">
-            <div class="card">
-              <img
-                src="projects/images/Extjs_local_todo.png"
-                alt="Extjs LocalTodo Application"
-                loading="lazy"
-              />
-            </div>
-          </a>
-          <a href="projects/mordenInputForm/index.html">
-            <div class="card">
-              <img
-                src="projects/images/mordenInputForm.png"
-                alt="Modern Input form"
-                loading="lazy"
-              />
-            </div>
-          </a>
-          <a href="projects/cardExpanding/index.html">
-            <div class="card">
-              <img
-                src="projects/images/Expanding_cards.png"
-                alt="Expanding Cards"
-                loading="lazy"
-              />
-            </div>
-          </a>
-          <a href="projects/todoList/index.html">
-            <div class="card">
-              <img
-                src="projects/todoList/images/Todo_List-min.jpg"
-                alt="Todo List"
-                loading="lazy"
-              />
-            </div>
-          </a>
-          <a href="projects/downloadRandomImage/index.html">
-            <div class="card">
-              <img
-                src="projects/downloadRandomImage/images/downloadRandomImages.jpg"
-                alt="Download Random Images"
-                loading="lazy"
-              />
-            </div>
-          </a>
-          <a href="projects/clock/index.html">
-            <div class="card">
-              <img
-                src="projects/images/Modern_Clock.png"
-                alt="Modern Clock"
-                loading="lazy"
-              />
-            </div>
-          </a>
-        </div>
+        <!-- List of project cards -->
+        <div id="portfolioCards" class="cards"></div>
         <div class="btn">
           <a href="/projects/">
             <button id="btnShowMore">
@@ -328,9 +274,9 @@
 
     <!-- footer -->
     <div class="footer">
-      <label for=""
-        >Copyright @ 2021 MaheshChavda,<wbr /> All rights are reserved. Created
-        By Mahesh Chavda
+      <label
+        >Copyright @<span id="fiscalYear">206</span> chavdamahesh.com,<wbr />
+        All rights are reserved. Created By Chavad Mahesh
       </label>
     </div>
   </body>
