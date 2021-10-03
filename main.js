@@ -26,9 +26,9 @@ var projectList = [
     imgAltText: "Todo List",
   },
   {
-    hyperLink: "projects/downloadRandomImage/index.html",
-    previewImg: "projects/images/downloadRandomImages.jpg",
-    imgAltText: "Download Random Images",
+    hyperLink: "projects/navigationMenu/index.html",
+    previewImg: "projects/images/navtigationMenu.png",
+    imgAltText: "Navigation Menu",
   },
   {
     hyperLink: "projects/clock/index.html",

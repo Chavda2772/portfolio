@@ -1,6 +1,7 @@
 .vscode
 .vs
 .git
+build
 projects\responsiveSinglePageRamjan(Pending)
 projects\simpleFetchRequest(Removed)
 projects\rotate_nav(Pending)
