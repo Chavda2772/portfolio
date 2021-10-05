@@ -71,14 +71,7 @@ function createPortfolioCard() {
   projectList.forEach((card, index) => {
     var cardEl = document.createElement("a");
     cardEl.href = card.hyperLink;
-    cardEl.innerHTML = `
-          <div class="card">
-              <img
-                src="${card.previewImg}"
-                alt="${card.imgAltText}"
-                loading="lazy"
-              />
-            </div>`;
+    cardEl.innerHTML = `<div class="card"><img src="${card.previewImg}" alt="${card.imgAltText}" loading="lazy"/></div>`;
     projectContainer.appendChild(cardEl);
   });
 }

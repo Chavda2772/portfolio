@@ -7,3 +7,4 @@ projects\simpleFetchRequest(Removed)
 projects\rotate_nav(Pending)
 projects\animatedInputField
 projects\downloadFile
+project_resources
