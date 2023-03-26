@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.dark {
+  background: #1c272d;
+}
+
+body.light {
+  background: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.clock {
+  width: 351px;
+  height: 351px;
+  position: relative;
+  border-radius: 100%;
+  box-shadow: 0 10px 12px #0003;
+}
+
+.dark .clock {
+  background: url("dark/clockbg.png");
+}
+
+.light .clock {
+  background: url("light/clockbg.png");
+}
+
+.hours,
+.minutes,
+.seconds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hour {
+  width: 4px;
+  height: 155px;
+}
+
+.dark #hour {
+  background: url("dark/hour.png");
+}
+
+.light #hour {
+  background: url("light/hour.png");
+}
+
+#minute {
+  width: 4px;
+  height: 194px;
+}
+
+.dark #minute {
+  background: url("dark/min.png");
+}
+
+.light #minute {
+  background: url("light/min.png");
+}
+
+#second {
+  width: 11px;
+  height: 206px;
+}
+
+.dark #second {
+  background: url("dark/sec.png");
+}
+
+.light #second {
+  background: url("light/sec.png");
+}
+
+#switch {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#switch svg {
+  width: 18px;
+  height: 18px;
+}
+
+.dark #switch {
+  background: #fff1;
+}
+
+.dark #switch .fa-sun {
+  color: #fff;
+}
+
+.light #switch {
+  background: #0001;
+}
+
+.light #switch .fa-moon {
+  color: #000;
+}

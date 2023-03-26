@@ -1,0 +1,11 @@
+.x-treecell .x-icon-el {
+    /*display: none !important;*/
+}
+
+.todoDetailstitle {
+    padding: 10px 20px;
+}
+
+.todoDetailsDecriptionTextArea {
+    padding: 10px 20px;
+}

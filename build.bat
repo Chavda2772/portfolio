@@ -6,7 +6,7 @@ set drive=E
 set portfolioLocation=E:\Projects\Portfolio\MaheshChavda
 set buildLocation=E:\Projects\Portfolio\build
 
-set miniProjectLocation=E:\Projects\projects
+set miniProjectLocation=E:\Projects\Portfolio\projects
 set miniProjectsPortfolioLocation=E:\Projects\Portfolio\build\projects
 
 set zip="C:\Program Files\WinRAR\rar.exe"
@@ -51,9 +51,15 @@ for /f %%f in (%portfolioLocation%\folders.txt) do (
 )
 ECHO ----------------- Creating zip file Successfully ---------------------
 
-IF NOT EXIST %portfolioLocation%\build\ MKDIR %portfolioLocation%\build\
-IF EXIST %buildLocation%\%zipName% MOVE %buildLocation%\%zipName% %portfolioLocation%\build\%zipName%
+IF NOT EXIST %portfolioLocation%\buildBackup\ MKDIR %portfolioLocation%\buildBackup\
+IF EXIST %buildLocation%\%zipName% MOVE %buildLocation%\%zipName% %portfolioLocation%\buildBackup\%zipName%
 ECHO ----------------- Zip moved Successfully ---------------------
+
+ECHO ----------------- Builld folder copy started ---------------------
+if exist %portfolioLocation%\build rmdir /Q /S "%portfolioLocation%\build"
+mkdir %portfolioLocation%\build
+xcopy %buildLocation% %portfolioLocation%\build /K /S /D /H /Y
+ECHO ----------------- Build folder copy successfully ---------------------
 
 ECHO ---------------- Operation Completed Successfully -----------------
 

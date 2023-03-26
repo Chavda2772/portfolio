@@ -2,6 +2,7 @@
 .vs
 .git
 build
+buildBackup
 projects\responsiveSinglePageRamjan(Pending)
 projects\simpleFetchRequest(Removed)
 projects\rotate_nav(Pending)
