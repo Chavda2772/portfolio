@@ -1,6 +1,7 @@
 .vscode
 .vs
 .git
+.github
 build
 buildBackup
 projects\responsiveSinglePageRamjan(Pending)
